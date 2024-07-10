@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  canvas {
+    background: #fff;
+    display: block;
+    margin: 20px auto;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+  
+    border-width:1px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px 2px gray;
+  }
+  
+  button {
+    width: 480px;
+    height: 40px;
+    border: 10em;
+    background: linear-gradient(to bottom, #000, #555);
+    color: #fff;
+    border-radius: 1em;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    display: block;
+  }
+
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box1 {
+    width: 100px;
+    height: 43px;
+    background: linear-gradient(to bottom, #000, #555);
+    position: absolute;
+    top: 65%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+
+.box2 {
+    width: 100px;
+    height: 43px;
+    background: linear-gradient(to bottom, #000, #555);
+    position: absolute;
+    top: 72%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+
+.box3 {
+    width: 100px;
+    height: 43px;
+    background: linear-gradient(to bottom, #000, #555);
+    position: absolute;
+    top: 79%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+
+.box4 {
+  width: 100px;
+  height: 43px;
+  background: linear-gradient(to bottom, #000, #555);
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform .1s;
+}
+
+.box5 {
+  width: 100px;
+  height: 43px;
+  background: linear-gradient(to bottom, #000, #555);
+  position: absolute;
+  top: 72%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform .1s;
+}
+
+.box6 {
+  width: 100px;
+  height: 43px;
+  background: linear-gradient(to bottom, #000, #555);
+  position: absolute;
+  top: 79%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform .1s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.img-concert{
+  width: 200px;
+  position: absolute;
+  top: 9%;
+  left: 45%;
+}
